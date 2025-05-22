@@ -1,0 +1,106 @@
+.rUpdated-container {
+  margin-left: 20px;
+  background-color: white;
+  width: 209px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  margin-top: 10px;
+  
+}
+
+.anime-poster-container {
+  position: relative;
+}
+
+.anime-poster {
+  height: 230px;
+  width: 209px;
+}
+
+ 
+.cc-icon {
+  width: 14px;
+  position: absolute;
+  bottom: 17px;
+  left: 6px;
+  z-index: 1;
+}
+.dub-icon, .dub-icon4 {
+  width: 14px;
+  position: absolute;
+  bottom: 17px;
+  left: 3.1rem;
+  z-index: 1;
+}
+
+.dub-icon4 {
+  left: 4rem;
+}
+
+.num-of-engsub, .num-of-engdub , .num-of-engdub4, .num-of-engdub9, .num-of-episode{
+  position: absolute;
+  bottom: 8px;
+  color: black;
+  font-weight: 550;
+
+  padding: 2px 6px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+}
+
+.num-of-engsub {
+  background-color: white;
+  padding-left: 20px;
+  left: 2px;
+}
+
+.num-of-engdub, .num-of-engdub4, .num-of-engdub9{
+  background-color: pink;
+  padding-left: 15px;
+  left: 3rem;
+}
+
+.num-of-engdub4, .num-of-engdub9{
+  margin-left: 14px;
+}
+
+.num-of-episode {
+  background-color: #aaa;
+  right: 4px;
+
+}
+
+
+
+
+.anime-info, .anime-info1, .anime2-info, .anime4-info, .anime-info5, .anime-info6, .anime-info12 {
+  display: block;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.anime-info1, .anime-info12{
+  line-height: 14px;  
+}
+
+.anime-info5{
+  line-height: 13px;
+}
+.anime-info6 {
+  line-height: 20px;
+}
+
+
+
+.name {
+  color: black;
+  margin-top: 4px;
+  text-decoration: none;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+

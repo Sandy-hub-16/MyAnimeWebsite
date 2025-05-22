@@ -1,0 +1,83 @@
+ .container {
+  height: 22rem;
+  width: 94.95rem;
+  background: pink;
+  display: flex;
+  overflow-x: scroll ;
+  scroll-snap-type: x mandatory;
+  
+}
+
+.container div {
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  color: white;
+  scroll-snap-align: center;
+} 
+
+/* -------------CUSTOMIZE SCROLLBAR------------------- */
+.container::-webkit-scrollbar {
+  width: 12px;
+}
+.container::-webkit-scrollbar-thumb {
+  background-color: #1c1c1c;
+  border-radius: 7px;
+}
+.container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.container::-webkit-scrollbar-thumb {
+  color: white;
+}
+
+/* -------------CUSTOMIZE SCROLLBAR------------------- */
+
+.box1 img, .box2 img, .box3 img, .box4 img, .box5 img, .box6 img, .box7 img, .box8 img, .box9 img, .box10 img {
+  height: 20.9992rem;
+  width: 20rem;
+  object-fit: fill;
+  filter: brightness(65%);
+}
+
+.box1 img:hover, .box2 img:hover, .box3 img:hover, .box4 img:hover, .box5 img:hover, .box6 img:hover, .box7 img:hover, .box8 img:hover, .box9 img:hover, .box10 img:hover{
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.box1 img:active, .box2 img:active, .box3 img:active, .box4 img:active, .box5 img:active, .box6 img:active, .box7 img:active, .box8 img:active, .box9 img:active, .box10 img:active {
+  filter: brightness(65%);
+  cursor: default;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+  position: relative;
+}
+
+
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
+  position: absolute;
+  top: 0;
+}
+
+
+.text1 p, .text2 p, .text3 p, .text4 p, .text5 p, .text6 p, .text7 p, .text8 p, .text9 p, .text10 p{
+  font-size: 20px;
+}
+
+.text4 {
+  left: 30px;
+}
+
+
+
+.num1, .num2, .num3, .num4, .num5, .num6, .num7, .num8, .num9, .num10{
+  position: absolute;
+}
+
+
+
+
