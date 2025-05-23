@@ -23,7 +23,8 @@
     <label class="email">EMAIL ADDRESS</label>
     <input class="input" name="email" type="text" placeholder="username@gmail.com" required> 
     <label class="password">PASSWORD</label>
-    <input class="input" name="pass_word" type="password" placeholder="Password" required>
+    <input class="input" name="pass_word" type="password" id="password" placeholder="Password" required>
+    <img class="password-icon" src="SignInAndSignUp/hide-eye-icon.png" onclick="pass()" id="password-icon">
    </div>
 
    <input class="sign-up-button" type="submit" name="signin" value="Sign in">

@@ -22,4 +22,23 @@ function showPopup(message) {
   }, 2000);
 
   }
+
+  var a;
+  function pass() 
+  {
+    if (a==1) 
+    {
+      document.getElementById('password').type='password';
+      document.getElementById('password-icon').src='SignInAndSignUp/hide-eye-icon.png';
+      a=0;
+    }
+
+    else 
+    {
+      document.getElementById('password').type='text';
+      document.getElementById('password-icon').src='SignInAndSignUp/eye-icon.png';
+      a = 1;
+    }
+
+  }
   

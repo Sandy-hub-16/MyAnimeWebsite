@@ -55,7 +55,6 @@ body {
   width: 100%;
   margin-bottom: 10px;
   padding-left: 10px;
-  
 
   background-color: #1c1c1c;
   color: white;
@@ -64,10 +63,30 @@ body {
 }
 
 .input::placeholder {
-  font-size: 13px;
+  font-size: 14px;
   font-family: Poppins,Arial;
   font-weight: 550;
   color: rgb(187, 187, 187);
+}
+
+/* Password Eye-Icon */
+
+.password-icon {
+  width: 40px;
+  position: absolute;
+  top: 22rem;
+  right: 2.5rem;
+
+  cursor: pointer;
+}
+
+.confirm-password-icon {
+  width: 40px;
+  position: absolute;
+  bottom: 8.5rem;
+  right: 2.5rem;
+
+  cursor: pointer;
 }
 
 

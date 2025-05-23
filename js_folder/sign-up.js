@@ -20,3 +20,22 @@ function showPopup(message) {
   modal.style.display = "none";
   }, 2000);
 }
+
+function pass(passwordFieldId, iconId) {
+  var passwordField = document.getElementById(passwordFieldId);
+  var icon = document.getElementById(iconId);
+
+  if (passwordField.type === 'password') {
+    passwordField.type = 'text';
+    icon.src = 'SignInAndSignUp/eye-icon.png';
+  }
+  
+  
+  else {
+    passwordField.type = 'password';
+    icon.src = 'SignInAndSignUp/hide-eye-icon.png';
+  }
+}
+
+
+
